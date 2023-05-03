@@ -8,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class NewPageComponent {
 
+  public Serie = [
+    { id: 'aqnhqv', desc: 'Aqui no hay quien viva' },
+    { id: 'lqsa', desc: 'La que se avecina' },
+  ];
+
 }

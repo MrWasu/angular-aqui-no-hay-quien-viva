@@ -1,1 +1,12 @@
-<p>list-page works!</p>
+<h1>Listado de Personajes</h1>
+<mat-divider></mat-divider>
+
+<div class="grid bm-8 pt-2">
+
+    <div *ngFor="let character of characters" class="col-12 sm:col-4 md:col-3 xl:col-2">
+
+        <character-card [character]="character"></character-card>
+
+    </div>
+
+</div>

@@ -1,1 +1,55 @@
-<p>hero-page works!</p>
+
+<ng-template #divLoading>
+    <mat-grid-list cols="1">
+      <mat-grid-tile>
+        <mat-spinner></mat-spinner>
+      </mat-grid-tile>
+    </mat-grid-list>
+  </ng-template>
+  
+  
+  <div *ngIf="character; else divLoading" class="grid p-2"> <!-- ! cambiar -->
+  
+    <mat-card class="col-12 sm:col-6">
+  
+      <mat-card-header>
+        <mat-card-title>{{ character.alter_ego }}</mat-card-title>
+        <mat-card-subtitle>{{ character.character }}</mat-card-subtitle>
+      </mat-card-header>
+  
+  
+      <img [src]="character | characterImage" [alt]="character.character" mat-card-image  />
+  
+    </mat-card>
+  
+    <mat-card class="col-12 sm:col-6">
+  
+      <mat-card-header>
+        <mat-card-title>Información</mat-card-title>
+        <mat-card-subtitle>{{ character.character }}</mat-card-subtitle>
+      </mat-card-header>
+  
+      <mat-card-content>
+        <mat-list>
+          <mat-list-item>{{ character.live_actor }}</mat-list-item>
+          <mat-list-item>{{ character.cohabitants }}</mat-list-item>
+          <mat-list-item>{{ character.serie }}</mat-list-item>
+          <mat-list-item>{{ character.alter_ego }}</mat-list-item>
+        </mat-list>
+  
+        <button
+          mat-button
+          color="warn"
+          (click)="goBack()"
+        >
+          Regresar
+        </button>
+  
+      </mat-card-content>
+  
+  
+    </mat-card>
+  
+  
+  </div>
+  

@@ -1,0 +1,51 @@
+<mat-card>
+    <mat-card-header>
+      <mat-card-title>{{ character.character }}</mat-card-title>
+      <mat-card-subtitle>{{ character.alter_ego }}</mat-card-subtitle> <!-- ! cambiar -->
+    </mat-card-header>
+  
+    <!-- TODO: imagen -->
+     <!-- <img mat-card-image [src]="'assets/characters/' + character.id + '.jpg'" [alt]="character.character">  -->
+
+     <img mat-card-image [src]="character | characterImage" [alt]="character.character">
+
+
+  
+    <mat-card-content class="mt-2">
+      <h4>{{ character.serie }}</h4>
+      <p>
+        <strong>Actor/Actriz</strong> {{ character.live_actor }}
+        <br>
+        <mat-chip-listbox>
+          <mat-chip *ngFor="let name of character.cohabitants.split(',') | slice:0:5">
+            {{ name }}
+          </mat-chip>
+        </mat-chip-listbox>
+      </p>
+    </mat-card-content>
+  
+    <mat-divider></mat-divider>
+  
+    <mat-card-actions>
+  
+      <button mat-button
+        mat-raised
+        color="primary"
+        [routerLink]="['/characteres/edit', character.id ]">
+        <mat-icon>edit</mat-icon>
+        Editar
+      </button>
+  
+      <span class="spacer"></span>
+  
+      <button mat-button
+        mat-raised
+        [routerLink]="['/characters', character.id ]">
+        <mat-icon>more_horiz</mat-icon>
+        Más
+      </button>
+  
+    </mat-card-actions>
+  
+  </mat-card>
+  
