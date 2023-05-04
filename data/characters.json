@@ -1,219 +1,219 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "usuario": "John Doe",
-            "email": "john.due@gmail.com"
-        }
-    ],
-    "characters": [
-        {
-            "id": "aqnhqv-juan-cuesta",
-            "character": "Juan Cuesta",
-            "serie": "Aqui no hay quien viva",
-            "alter_ego": "Enrique pastor",
-            "live_actor": "José Luis Gil",
-            "cohabitants": "Paloma, Josemi, Natalia, La 'yerbas'"
-        },
-        {
-            "id": "aqnhqv-emilio",
-            "character": "Emilio Delgado",
-            "serie": "Aqui no hay quien viva",
-            "alter_ego": "Fermin Trujillo",
-            "live_actor": "Fernando Tejero",
-            "cohabitants": "Mariano"
-        },
-        {
-            "id": "aqnhqv-belen",
-            "character": "Belen Lopez",
-            "serie": "Aqui no hay quien viva",
-            "alter_ego": "Cristina Aguilera",
-            "live_actor": "Malena Alterio",
-            "cohabitants": "Alicia, Bea, 'la inga'"
-        },
-        {
-            "id": "aqnhqv-marisa",
-            "character": "Marisa Benito",
-            "serie": "Aqui no hay quien viva",
-            "alter_ego": "Itzaskun",
-            "live_actor": "Marivi Bilbao",
-            "cohabitants": "Vicenta, Concha"
-        },
-        {
-            "id": "aqnhqv-josemi",
-            "character": "Jose Miguel Cuesta",
-            "serie": "Aqui no hay quien viva",
-            "alter_ego": "El dudu",
-            "live_actor": "Eduardo Garcia",
-            "cohabitants": "Juan Cuesta, Paloma, Natalia"
-        },
-        {
-            "id": "aqnhqv-lucia",
-            "character": "Lucia Alvarez 'la pija'",
-            "serie": "Aqui no hay quien viva",
-            "alter_ego": "Rebeca Ortiz",
-            "live_actor": "Maria Adanez",
-            "cohabitants": "Roberto"
-        },
-        {
-            "id": "aqnhqv-mauri",
-            "character": "Mauricio hidalgo",
-            "serie": "Aqui no hay quien viva",
-            "alter_ego": "Bruno Quiroga",
-            "live_actor": "Luis Merlo",
-            "cohabitants": "Fernando, Bea"
-        },
-        {
-            "id": "aqnhqv-vicenta",
-            "character": "Vicenta Benito",
-            "serie": "Aqui no hay quien viva",
-            "alter_ego": "Maria Teresa Benito",
-            "live_actor": "Gemma Cuervo",
-            "cohabitants": "Marisa, Concha"
-        },
-        {
-            "id": "aqnhqv-mariano",
-            "character": "Mariano Delgado",
-            "serie": "Aqui no hay quien viva",
-            "alter_ego": "Maxi",
-            "live_actor": "Eduardo Gomez",
-            "cohabitants": "Emilio"
-        },
-        {
-            "id": "aqnhqv-paco",
-            "character": "Paco",
-            "serie": "Aqui no hay quien viva",
-            "alter_ego": "Joaquin Arias",
-            "live_actor": "Guillermo Ortega",
-            "cohabitants": "Ninguno"
-        },
-        {
-            "id": "lqsa-amador",
-            "character": "Amador Rivas",
-            "serie": "La que se avecina",
-            "alter_ego": "'Moncho'",
-            "live_actor": "Pablo Chiapella",
-            "cohabitants": "Cuqui, Carlota, Nano, Rodrigo, 'Ojos de pollo', Teodoro "
-        },
-        {
-            "id": "lqsa-javi",
-            "character": "Javier Maroto",
-            "serie": "La que se avecina",
-            "alter_ego": "Ninguno",
-            "live_actor": "Antonio Pagudo",
-            "cohabitants": "Lola, Estela Reynols, Fermin"
-        },
-        {
-            "id": "lqsa-recio",
-            "character": "Antonio Recio",
-            "serie": "La que se avecina",
-            "alter_ego": "El hermano de Bea",
-            "live_actor": "Jordi Sanchez",
-            "cohabitants": "Berta, Alba"
-        },
-        {
-            "id": "lqsa-nines",
-            "character": "'Nines'",
-            "serie": "La que se avecina",
-            "alter_ego": "Ninguno",
-            "live_actor": "Cristina Medina",
-            "cohabitants": "Raquel"
-        },
-        {
-            "id": "lqsa-berta",
-            "character": "Berta Escobar",
-            "serie": "La que se avecina",
-            "alter_ego": "Ninguno",
-            "live_actor": "Nathalie Seseña",
-            "cohabitants": "Antonio, Alba"
-        },
-        {
-            "id": "aqnhqv-paco",
-            "character": "Paco",
-            "serie": "Aqui no hay quien viva",
-            "alter_ego": "Joaquin Arias",
-            "live_actor": "Guillermo Ortega",
-            "cohabitants": "Ninguno"
-        },
-        {
-            "id": "lqsa-amador",
-            "character": "Amador Rivas",
-            "serie": "La que se avecina",
-            "alter_ego": "'Moncho'",
-            "live_actor": "Pablo Chiapella",
-            "cohabitants": "Cuqui, Carlota, Nano, Rodrigo, 'Ojos de pollo', Teodoro "
-        },
-        {
-            "id": "lqsa-javi",
-            "character": "Javier Maroto",
-            "serie": "La que se avecina",
-            "alter_ego": "Ninguno",
-            "live_actor": "Antonio Pagudo",
-            "cohabitants": "Lola, Estela Reynols, Fermin"
-        },
-        {
-            "id": "lqsa-recio",
-            "character": "Antonio Recio",
-            "serie": "La que se avecina",
-            "alter_ego": "'El hermano de Bea'",
-            "live_actor": "Jordi Sanchez",
-            "cohabitants": "Berta, Alba"
-        },
-        {
-            "id": "lqsa-nines",
-            "character": "'Nines'",
-            "serie": "La que se avecina",
-            "alter_ego": "Ninguno",
-            "live_actor": "Cristina Medina",
-            "cohabitants": "Raquel"
-        },
-        {
-            "id": "lqsa-berta",
-            "character": "Berta Escobar",
-            "serie": "La que se avecina",
-            "alter_ego": "Ninguno",
-            "live_actor": "Nathalie Seseña",
-            "cohabitants": "Antonio, Alba"
-        },
-        {
-            "id": "lqsa-judit",
-            "character": "Judit Becker",
-            "serie": "La que se avecina",
-            "alter_ego": "Ninguno",
-            "live_actor": "Cristina Castaño",
-            "cohabitants": "Rebeca, Enrique"
-        },
-        {
-            "id": "lqsa-fina",
-            "character": "Fina Palomares",
-            "serie": "La que se avecina",
-            "alter_ego": "Ninguno",
-            "live_actor": "Petra Martinez",
-            "cohabitants": "Ninguno"
-        },
-        {
-            "id": "lqsa-vicente",
-            "character": "Vicente Maroto",
-            "serie": "La que se avecina",
-            "alter_ego": "Higinio Heredia",
-            "live_actor": "Ricardo Arroyo",
-            "cohabitants": "Araceli, Fermin"
-        },
-        {
-            "id": "lqsa-coque",
-            "character": "Coque",
-            "serie": "La que se avecina",
-            "alter_ego": "Jose Maria",
-            "live_actor": "Nacho Guerreros",
-            "cohabitants": "Ninguno"
-        },
-        {
-            "id": "lqsa-chusa",
-            "character": "'Chusa'",
-            "serie": "La que se avecina",
-            "alter_ego": "Ninguno",
-            "live_actor": "Paz Padilla",
-            "cohabitants": "Familia de los 'cuquis'"
-        }
-    ]
+  "users": [
+      {
+          "id": 1,
+          "usuario": "John Doe",
+          "email": "john.due@gmail.com"
+      }
+  ],
+  "characters": [
+      {
+          "id": "aqnhqv-juan-cuesta",
+          "character": "Juan Cuesta",
+          "serie": "Aqui no hay quien viva",
+          "alter_ego": "Enrique pastor",
+          "live_actor": "José Luis Gil",
+          "cohabitants": "Paloma, Josemi, Natalia, La 'yerbas'"
+      },
+      {
+          "id": "aqnhqv-emilio",
+          "character": "Emilio Delgado",
+          "serie": "Aqui no hay quien viva",
+          "alter_ego": "Fermin Trujillo",
+          "live_actor": "Fernando Tejero",
+          "cohabitants": "Mariano"
+      },
+      {
+          "id": "aqnhqv-belen",
+          "character": "Belen Lopez",
+          "serie": "Aqui no hay quien viva",
+          "alter_ego": "Cristina Aguilera",
+          "live_actor": "Malena Alterio",
+          "cohabitants": "Alicia, Bea, 'la inga'"
+      },
+      {
+          "id": "aqnhqv-marisa",
+          "character": "Marisa Benito",
+          "serie": "Aqui no hay quien viva",
+          "alter_ego": "Itzaskun",
+          "live_actor": "Marivi Bilbao",
+          "cohabitants": "Vicenta, Concha"
+      },
+      {
+          "id": "aqnhqv-josemi",
+          "character": "Jose Miguel Cuesta",
+          "serie": "Aqui no hay quien viva",
+          "alter_ego": "El dudu",
+          "live_actor": "Eduardo Garcia",
+          "cohabitants": "Juan Cuesta, Paloma, Natalia"
+      },
+      {
+          "id": "aqnhqv-lucia",
+          "character": "Lucia Alvarez 'la pija'",
+          "serie": "Aqui no hay quien viva",
+          "alter_ego": "Rebeca Ortiz",
+          "live_actor": "Maria Adanez",
+          "cohabitants": "Roberto"
+      },
+      {
+          "id": "aqnhqv-mauri",
+          "character": "Mauricio hidalgo",
+          "serie": "Aqui no hay quien viva",
+          "alter_ego": "Bruno Quiroga",
+          "live_actor": "Luis Merlo",
+          "cohabitants": "Fernando, Bea"
+      },
+      {
+          "id": "aqnhqv-vicenta",
+          "character": "Vicenta Benito",
+          "serie": "Aqui no hay quien viva",
+          "alter_ego": "Maria Teresa Benito",
+          "live_actor": "Gemma Cuervo",
+          "cohabitants": "Marisa, Concha"
+      },
+      {
+          "id": "aqnhqv-mariano",
+          "character": "Mariano Delgado",
+          "serie": "Aqui no hay quien viva",
+          "alter_ego": "Maxi",
+          "live_actor": "Eduardo Gomez",
+          "cohabitants": "Emilio"
+      },
+      {
+          "id": "aqnhqv-paco",
+          "character": "Paco",
+          "serie": "Aqui no hay quien viva",
+          "alter_ego": "Joaquin Arias",
+          "live_actor": "Guillermo Ortega",
+          "cohabitants": "Ninguno"
+      },
+      {
+          "id": "lqsa-amador",
+          "character": "Amador Rivas",
+          "serie": "La que se avecina",
+          "alter_ego": "'Moncho'",
+          "live_actor": "Pablo Chiapella",
+          "cohabitants": "Cuqui, Carlota, Nano, Rodrigo, 'Ojos de pollo', Teodoro "
+      },
+      {
+          "id": "lqsa-javi",
+          "character": "Javier Maroto",
+          "serie": "La que se avecina",
+          "alter_ego": "Ninguno",
+          "live_actor": "Antonio Pagudo",
+          "cohabitants": "Lola, Estela Reynols, Fermin"
+      },
+      {
+          "id": "lqsa-recio",
+          "character": "Antonio Recio",
+          "serie": "La que se avecina",
+          "alter_ego": "El hermano de Bea",
+          "live_actor": "Jordi Sanchez",
+          "cohabitants": "Berta, Alba"
+      },
+      {
+          "id": "lqsa-nines",
+          "character": "'Nines'",
+          "serie": "La que se avecina",
+          "alter_ego": "Ninguno",
+          "live_actor": "Cristina Medina",
+          "cohabitants": "Raquel"
+      },
+      {
+          "id": "lqsa-berta",
+          "character": "Berta Escobar",
+          "serie": "La que se avecina",
+          "alter_ego": "Ninguno",
+          "live_actor": "Nathalie Seseña",
+          "cohabitants": "Antonio, Alba"
+      },
+      {
+          "id": "aqnhqv-paco",
+          "character": "Paco",
+          "serie": "Aqui no hay quien viva",
+          "alter_ego": "Joaquin Arias",
+          "live_actor": "Guillermo Ortega",
+          "cohabitants": "Ninguno"
+      },
+      {
+          "id": "lqsa-amador",
+          "character": "Amador Rivas",
+          "serie": "La que se avecina",
+          "alter_ego": "'Moncho'",
+          "live_actor": "Pablo Chiapella",
+          "cohabitants": "Cuqui, Carlota, Nano, Rodrigo, 'Ojos de pollo', Teodoro "
+      },
+      {
+          "id": "lqsa-javi",
+          "character": "Javier Maroto",
+          "serie": "La que se avecina",
+          "alter_ego": "Ninguno",
+          "live_actor": "Antonio Pagudo",
+          "cohabitants": "Lola, Estela Reynols, Fermin"
+      },
+      {
+          "id": "lqsa-recio",
+          "character": "Antonio Recio",
+          "serie": "La que se avecina",
+          "alter_ego": "'El hermano de Bea'",
+          "live_actor": "Jordi Sanchez",
+          "cohabitants": "Berta, Alba"
+      },
+      {
+          "id": "lqsa-nines",
+          "character": "'Nines'",
+          "serie": "La que se avecina",
+          "alter_ego": "Ninguno",
+          "live_actor": "Cristina Medina",
+          "cohabitants": "Raquel"
+      },
+      {
+          "id": "lqsa-berta",
+          "character": "Berta Escobar",
+          "serie": "La que se avecina",
+          "alter_ego": "Ninguno",
+          "live_actor": "Nathalie Seseña",
+          "cohabitants": "Antonio, Alba"
+      },
+      {
+          "id": "lqsa-judit",
+          "character": "Judit Becker",
+          "serie": "La que se avecina",
+          "alter_ego": "Ninguno",
+          "live_actor": "Cristina Castaño",
+          "cohabitants": "Rebeca, Enrique"
+      },
+      {
+          "id": "lqsa-fina",
+          "character": "Fina Palomares",
+          "serie": "La que se avecina",
+          "alter_ego": "Ninguno",
+          "live_actor": "Petra Martinez",
+          "cohabitants": "Ninguno"
+      },
+      {
+          "id": "lqsa-vicente",
+          "character": "Vicente Maroto",
+          "serie": "La que se avecina",
+          "alter_ego": "Higinio Heredia",
+          "live_actor": "Ricardo Arroyo",
+          "cohabitants": "Araceli, Fermin"
+      },
+      {
+          "id": "lqsa-coque",
+          "character": "Coque",
+          "serie": "La que se avecina",
+          "alter_ego": "Jose Maria",
+          "live_actor": "Nacho Guerreros",
+          "cohabitants": "Ninguno"
+      },
+      {
+          "id": "lqsa-chusa",
+          "character": "'Chusa'",
+          "serie": "La que se avecina",
+          "alter_ego": "Ninguno",
+          "live_actor": "Paz Padilla",
+          "cohabitants": "Familia de los 'cuquis'"
+      }
+  ]
 }

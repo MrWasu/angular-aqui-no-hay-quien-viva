@@ -11,6 +11,7 @@ import { CharacterPageComponent } from './pages/character-page/character-page.co
 import { CharactersRoutingModule } from './characters-routing.module';
 import { CardComponent } from './components/card/card.component';
 import { CharacterImagePipe } from './pipes/character-image.pipe';
+import { ConfirmDialogComponent } from './components/confirm-dialog/confirm-dialog.component';
 
 
 @NgModule({
@@ -21,7 +22,9 @@ import { CharacterImagePipe } from './pipes/character-image.pipe';
     NewPageComponent,
     SearchPageComponent,
     CardComponent,
-    CharacterImagePipe
+    
+    CharacterImagePipe,
+    ConfirmDialogComponent,
   ],
   imports: [
     CommonModule,
