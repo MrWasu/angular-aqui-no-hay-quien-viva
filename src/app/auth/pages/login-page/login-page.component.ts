@@ -5,7 +5,11 @@ import { AuthService } from '../../services/auth.service';
 @Component({
   selector: 'app-login-page',
   templateUrl: './login-page.component.html',
-  styles: [
+  styles: [    `
+  .mat-btn {
+    background-color: orange !important;
+  }
+`
   ]
 })
 export class LoginPageComponent {

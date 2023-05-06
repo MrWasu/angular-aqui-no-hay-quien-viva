@@ -1,6 +1,7 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 notas.md
+_images
 
 # Compiled output
 /dist

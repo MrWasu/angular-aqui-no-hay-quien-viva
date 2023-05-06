@@ -28,7 +28,7 @@ export class CharacterPageComponent implements OnInit {
       )
       .subscribe( character => {
 
-        if ( !character ) return this.router.navigate([ '/characters/list' ]);
+        if ( !character ) return this.router.navigate([ '/characters/list-aqnhqv' ]);
 
         this.character = character;
         return;
@@ -36,7 +36,7 @@ export class CharacterPageComponent implements OnInit {
   }
 
   goBack():void {
-    this.router.navigateByUrl('characters/list')
+    this.router.navigateByUrl('characters/list-aqnhqv')
   }
 
 }

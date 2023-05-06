@@ -5,6 +5,11 @@ import { Character } from '../../interfaces/character.interface';
   selector: 'character-card',
   templateUrl: './card.component.html',
   styles: [
+    `
+    .mat-button {
+      color: orange;
+    }
+  `
   ]
 })
 export class CardComponent implements OnInit {

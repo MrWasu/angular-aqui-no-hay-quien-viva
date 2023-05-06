@@ -16,9 +16,10 @@ const routes: Routes = [
       { path: 'new-character', component: NewPageComponent },
       { path: 'search', component: SearchPageComponent },
       { path: 'edit/:id', component: NewPageComponent },
-      { path: 'list', component: ListPageComponent },
+      { path: 'list-aqnhqv', component: ListPageComponent },
+      { path: 'list-lqsa', component: ListPageComponent },
       { path: ':id', component: CharacterPageComponent },
-      { path: '**', redirectTo: 'list' },
+      { path: '**', redirectTo: 'list-aqnhv' },
     ]
   }
 ];

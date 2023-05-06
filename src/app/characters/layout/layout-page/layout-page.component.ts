@@ -8,6 +8,11 @@ import { User } from 'src/app/auth/interfaces/user.interface';
   selector: 'app-layout-page',
   templateUrl: './layout-page.component.html',
   styles: [
+    `
+    #sidebar {
+      background-color: orange
+    }
+  `
   ]
 })
 export class LayoutPageComponent {
@@ -18,7 +23,8 @@ export class LayoutPageComponent {
   ) {}
 
   public sidebarItems = [
-    { label: 'Listado', icon: 'label', url: './list' },
+    { label: 'AQNHQV', icon: 'label', url: './list-aqnhqv' },
+    { label: 'LQSA', icon: 'label', url: './list-lqsa' },
     { label: 'Añadir', icon: 'add', url: './new-character' },
     { label: 'Buscar', icon: 'search', url: './search' },
   ]

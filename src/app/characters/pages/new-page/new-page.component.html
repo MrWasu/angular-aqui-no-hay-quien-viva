@@ -1,8 +1,8 @@
-<h1>
+<h2>
   {{ currentCharacter.id ? 'Editar' : 'Agregar' }}
   Personaje
-  <small *ngIf="currentCharacter.id">{{ currentCharacter.character }}</small>
-</h1>
+  <small class="title-character" *ngIf="currentCharacter.id">{{ currentCharacter.character }}</small>
+</h2>
 
   
   <mat-divider class="mb-2"></mat-divider>
@@ -69,7 +69,7 @@
             </mat-form-field>
 
             <mat-form-field class="col-12">
-              <mat-label>Alternative Image</mat-label>
+              <mat-label>Alternative Image (.jpg .png)</mat-label>
               <input
                 matInput
                 type="text"
@@ -91,6 +91,7 @@
             <span></span> <!-- hace de separador por si el boton borrar desaparece -->
   
             <button
+              class="mat-button"
               mat-flat-button
               color="primary"
               (click)="onSubmit()"

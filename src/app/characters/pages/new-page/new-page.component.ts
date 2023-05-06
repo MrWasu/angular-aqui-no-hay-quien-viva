@@ -12,6 +12,15 @@ import { ConfirmDialogComponent } from '../../components/confirm-dialog/confirm-
   selector: 'app-new-page',
   templateUrl: './new-page.component.html',
   styles: [
+    `
+    .mat-button {
+      background-color: orange;
+    }
+    .title-character {
+      font-size: 30px;
+      margin-left: 12px
+    }
+  `
   ]
 })
 export class NewPageComponent implements OnInit {

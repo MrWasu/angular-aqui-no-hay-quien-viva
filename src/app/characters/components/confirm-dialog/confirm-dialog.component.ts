@@ -5,7 +5,11 @@ import { Character } from '../../interfaces/character.interface';
 @Component({
   selector: 'app-confirm-dialog',
   templateUrl: './confirm-dialog.component.html',
-  styles: [
+  styles: [`
+  .mat-button {
+    background-color: orange;
+  }
+`
   ]
 })
 export class ConfirmDialogComponent {

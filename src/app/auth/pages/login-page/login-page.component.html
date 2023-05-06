@@ -12,15 +12,17 @@
       <input type="password" matInput placeholder="Contraseña">
     </mat-form-field>
   
-    <button mat-button mat-flat-button color="primary"
+    <button class="mat-btn" mat-button mat-flat-button color="primary"
     (click)="onLogin()">
       <mat-icon>save</mat-icon>
       Ingresar
     </button>
+
+    <span class="mt-2">Haz login directamente, este proyecto no tiene base de datos de usuarios</span>
   
   
     <div class="flex justify-content-end mt-5">
-      <a routerLink="/auth/new-account">¿Ya tienes cuenta?</a>
+      <a routerLink="/auth/new-account">¿No tienes cuenta?</a>
     </div>
   
   </div>

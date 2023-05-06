@@ -1,10 +1,9 @@
 <mat-card>
     <mat-card-header>
       <mat-card-title>{{ character.character }}</mat-card-title>
-      <mat-card-subtitle>{{ character.alter_ego }}</mat-card-subtitle> <!-- ! cambiar -->
+      <mat-card-subtitle>{{ character.live_actor }}</mat-card-subtitle> <!-- ! cambiar -->
     </mat-card-header>
   
-    <!-- TODO: imagen -->
      <!-- <img mat-card-image [src]="'assets/characters/' + character.id + '.jpg'" [alt]="character.character">  -->
 
      <img mat-card-image [src]="character | characterImage" [alt]="character.character">
@@ -14,8 +13,10 @@
     <mat-card-content class="mt-2">
       <h4>{{ character.serie }}</h4>
       <p>
-        <strong>Actor/Actriz</strong> {{ character.live_actor }}
+        <strong>Alter ego:</strong> {{ character.alter_ego }}
         <br>
+        <br>
+        <span class="mt-2"><strong>Convivientes:</strong></span>
         <mat-chip-listbox>
           <mat-chip *ngFor="let name of character.cohabitants.split(',') | slice:0:5">
             {{ name }}
@@ -28,9 +29,8 @@
   
     <mat-card-actions>
   
-      <button mat-button
+      <button class="mat-button" mat-button
         mat-raised
-        color="primary"
         [routerLink]="['/characters/edit', character.id ]">
         <mat-icon>edit</mat-icon>
         Editar

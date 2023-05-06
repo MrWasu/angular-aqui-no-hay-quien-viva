@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { catchError, map, Observable, of } from 'rxjs';
 
-import { Character } from '../interfaces/character.interface';
+import { Character, Serie } from '../interfaces/character.interface';
 import { environments } from '../../../environments/environments';
 
 @Injectable({ providedIn: 'root' })
@@ -15,7 +15,7 @@ export class CharacterService {
 
 
   getCharacters(): Observable<Character[]> {
-    return this.http.get<Character[]>(`${this.baseUrl}/characters`);
+    return this.http.get<Character[]>(`${this.baseUrl}/characters/`);
   }
 
   getCharacterById(id: string): Observable<Character | undefined> {
@@ -26,7 +26,7 @@ export class CharacterService {
   }
 
   getSuggestions(query: string): Observable<Character[]> {
-    return this.http.get<Character[]>(`${this.baseUrl}/characters?q=${query}&_limit=6`); //! apuntes CRUD
+    return this.http.get<Character[]>(`${this.baseUrl}/characters?q=${query}&_limit=6`); 
   }
 
   addCharacter(character: Character): Observable<Character> {
