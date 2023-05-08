@@ -1,5 +1,4 @@
-# CharactersApp
-
+gi
 ## Herramientas/librerias utilizadas:
 
 - Proteccion de rutas
