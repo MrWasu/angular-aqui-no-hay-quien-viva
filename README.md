@@ -13,12 +13,20 @@
 - CRUD de los personajes
 - Formulario reactivo
 
+### Proyecto original (react):
+ https://github.com/MrWasu/react-aqui-no-hay-quien-viva-lqsa
+
+ <br>
+
 ## Dev
 
 1. Clonar el proyecto
 2. Ejecutar ```npm install```
 3. Levantar backend ```npm run backend```
 4. Ejecutar la app ```npm start``` o bien ```ng serve -o```
+
+<br>
+
 ## Previsualización:
 
 
